@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="flex space-x-6">
           {/* Botão para ver o repositório no GitHub */}
           <a
-            href="https://github.com/antoniofernandodearujo/convertly-app"
+            href="https://github.com/antoniofernandodearujo/convertly/tree/main/apps/mobile"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-600 text-white px-4 py-2 rounded flex items-center space-x-2 hover:bg-gray-500 transition"
