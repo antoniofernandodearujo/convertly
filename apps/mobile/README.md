@@ -2,10 +2,10 @@
 Welcome to the Document Converter project! This is a simple yet efficient mobile application built with React Native and Expo, designed to handle document conversions directly from your mobile device. 🚀
 
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
-  <img src="https://github.com/antoniofernandodearujo/convertly/blob/main/imgs-readme/1.png" alt="Imagem 1" width="200"/>
-  <img src="https://github.com/antoniofernandodearujo/convertly/blob/main/imgs-readme/2.png" alt="Imagem 2" width="200"/>
-  <img src="https://github.com/antoniofernandodearujo/convertly/blob/main/imgs-readme/3.png" alt="Imagem 3" width="200"/>
-  <img src="https://github.com/antoniofernandodearujo/convertly/blob/main/imgs-readme/4.png" alt="Imagem 4" width="200"/>
+  <img src="https://github.com/antoniofernandodearujo/convertly/blob/main/apps/mobile/imgs-readme/1.png" alt="Imagem 1" width="200"/>
+  <img src="https://github.com/antoniofernandodearujo/convertly/blob/main/apps/mobile/imgs-readme/2.png" alt="Imagem 2" width="200"/>
+  <img src="https://github.com/antoniofernandodearujo/convertly/blob/main/apps/mobile/imgs-readme/3.png" alt="Imagem 3" width="200"/>
+  <img src="https://github.com/antoniofernandodearujo/convertly/blob/main/apps/mobile/imgs-readme/4.png" alt="Imagem 4" width="200"/>
 </div>
 
 
