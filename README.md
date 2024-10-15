@@ -1,81 +1,65 @@
-# Turborepo starter
+# 📁 Convertly
 
-This is an official starter Turborepo.
+Welcome to **Convertly**! This is a powerful file conversion application built with a monorepo architecture using, **React Native (Expo)**, and **Node.js (Express)**. Convertly allows users to seamlessly convert files between various formats while providing a user-friendly interface across web and mobile platforms.
 
-## Using this example
+## 📦 Table of Contents
 
-Run the following command:
+- [✨ Features](#-features)
+- [🔧 Getting Started](#-getting-started)
+- [🛠️ Installation](#-installation)
+- [🚀 Running the Application](#-running-the-application)
+- [🌐 Deploying to Railway](#-deploying-to-railway)
+- [📚 API Documentation](#-api-documentation)
+- [🧪 Testing](#-testing)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [📞 Contact](#-contact)
 
-```sh
-npx create-turbo@latest
-```
+## ✨ Features
 
-## What's inside?
+- 🎉 Convert files between various formats (e.g., PDF, DOCX).
+- 📱 Mobile application for on-the-go conversions using Expo.
+- 🌐 Web application built with Next.js for a responsive experience. Which can be found here: https://github.com/antoniofernandodearujo/convertly-web
+- 🔄 Real-time file processing with easy-to-use UI.
 
-This Turborepo includes the following packages/apps:
+## 🔧 Getting Started
 
-### Apps and Packages
+To get started with Convertly, follow the instructions below to set up your development environment.
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+## 🛠️ Installation
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+### 1. Clone the repository:
+   ```bash
+   git clone https://github.com/antoniofernandodearujo/app-convertly.git
+   ```
+### 2. Navigate to the project directory:
+    ```bash
+     cd app-convertly
+     ```
+### 3.install dependencies for all applications:
 
-### Utilities
+    ```bash
+     npm install
+     ```
+## 🚀 Running the Application
 
-This Turborepo has some additional tools already setup for you:
+#### Start application: 
+    ```bash
+     npx turbo dev
+     ```
+🤝 Contributing
+We welcome contributions! Please follow these steps:
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+Fork the repository.
+Create a new branch (git checkout -b feature/YourFeature).
+Make your changes and commit (git commit -m 'Add some feature').
+Push to the branch (git push origin feature/YourFeature).
+Open a pull request.
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Build
+📞 Contact
+For any inquiries, feel free to reach out:
 
-To build all apps and packages, run the following command:
+Email: afas@academico.ufpb.br
 
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
