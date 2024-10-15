@@ -26,7 +26,7 @@ This project addresses mobile file manipulation challenges by utilizing a backen
 
 ## 🌍 Web Version
 We also have a web version of the application, making it easy to convert documents right from your browser! You can check out the web version here. Both the mobile and web versions share the same backend, keeping everything consistent.
-#### 🔗 Access: main.d2as35u28vga9.amplifyapp.com/
+#### 🔗 https://main.dreed2cck1hnw.amplifyapp.com/
 
 ## 🚀 Full-Stack Experience
 This project is part of a Full-Stack Application that integrates:
@@ -34,27 +34,6 @@ This project is part of a Full-Stack Application that integrates:
 - Frontend (Mobile): Built with React Native + Expo.
 - Backend: A Node.js API that handles file conversions, storage, and retrieval.
 - Frontend (Web): Also included in the repository, providing a seamless experience across platforms.
-
-## 🧩 Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/document-converter-app.git
-   ```
-
-2. Install depedencies:
-
-   ```bash
-   cd document-converter-app
-   npm install
-   ```
-3. Start the app:
-
-   ```bash
-   npx expo start
-   ```
-4. Enjoy converting your documents on the go! ✨
 
 
 ## 🖥️ Backend Setup
