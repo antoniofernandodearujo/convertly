@@ -69,7 +69,7 @@ npm run dev
 
 📬 POST Route
 ``` bash
-https://convert-api-service-production.up.railway.app/api/covert
+https://convertly-production.up.railway.app/api/covert
 ```
 
 ### Request Body:
@@ -87,8 +87,7 @@ https://convert-api-service-production.up.railway.app/api/covert
 - Railway: For deploying and hosting the API live
 
 ## 🌐 Related Projects
-This backend API was built specifically for the Convertly App, a mobile document converter built with React Native and Expo. You can check out the app repository here:
-#### 🔗 Convertly App Repository: https://github.com/antoniofernandodearujo/convertly-app
+This backend API was built specifically for the Convertly App, a mobile document converter built with React Native and Expo.
 
 ## 🚀 Hosted on Railway
 This project is deployed on Railway, where you can access the live API and try out file conversions in real time. This deployment also helped improve backend deployment skills, offering practical experience in hosting a Node.js application on a cloud platform.
